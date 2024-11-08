@@ -1,0 +1,261 @@
+/* CSS is how you can add style to your website, such as colors, fonts, and positioning of your
+   HTML content. To learn how to do something, just try searching Google for questions like
+   "how to change link color." */
+
+body {
+  background-color: #1F2C51;
+  background-image: url('../images/bg_starry.png');
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+	background-position: top;
+  font-size: 18px;
+  font-family: "Atkinson Hyperlegible", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0;
+}
+
+p {
+  line-height: 1.6em; /*I find the default HTML line-height tends to be a bit claustrophobic for main text*/
+}
+
+hr {
+  border: solid #A490B4;
+  border-width: 2px 0 0 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+.right {
+  float: right;
+  margin-left: 1em;
+}
+.left {
+  float: left;
+  margin-right: 1em;
+}
+.center {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+@media only screen and (min-width: 600px) {
+  .small {
+    max-width: 60%;
+    height: auto;
+  }
+}
+.caption {
+  margin-top: 0;
+  font-size: 0.9em;
+  font-style: italic;
+}
+
+h4 {
+  font-family: "Grandstander", cursive;
+  font-weight: 500;
+  font-style: normal;
+  color: #283A6D;
+  margin-top: 0;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h5 {
+  font-family: "Grandstander", cursive;
+  font-weight: 500;
+  font-style: normal;
+  color: #283A6D;
+}
+
+.flex-list {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	padding-inline-start: 0;
+	list-style-type: "";
+}
+
+#post-tags {
+	margin-block: 0;
+	& > li:not(:last-child)::after {
+		content: ",\a0"; /* comma + non-breaking space */
+	}
+	a::before {
+		content: "#";
+	}
+}
+
+#post-nav > ul {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: var(--gap);
+	padding-inline-start: 0;
+	list-style-type: "";
+	& > :first-child > a::before {
+		content: "\2190 \a0"; /* left arrow + non-breaking space */
+	}
+	& > :last-child {
+		text-align: right;
+		a::after {
+			content: "\2192 \a0"; /* right arrow + non-breaking space */
+		}
+	}
+}
+
+#tag-index {
+	padding-inline-start: 0;
+  gap: 1.5rem;
+	list-style-type: "";
+	details {
+		margin-block: 0;
+	}
+	[open] {
+		margin-block-end: 1rem;
+	}
+	summary {
+		font-size: var(--interface-font-size);
+	}
+}
+
+.friend-image {
+  object-fit: cover;
+  float: left;
+  width: 5rem;
+  height: 8rem;
+  margin-right: 1rem
+}
+
+/*DROPDOWN STYLE*/
+
+/* Style The Dropdown Button */
+.dropbtn {
+  background-color: #4CAF50;
+  border: none;
+  cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #223877;
+  border: ridge #A490B4;
+  min-width: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+
+/*#CONTAINER is the rectangle that contains everything but the background!*/
+#container {
+  margin: 3em auto;
+  width: 90%;
+	max-width: 700px;
+	background-color: #E1DDFF;
+  color: #151515; 
+  outline-color: #A490B4;
+  outline-style: ridge;
+  outline-width: 4px;
+  outline-offset: 0;
+}
+
+#content {
+  padding: 10px 5% 20px 5%;
+}
+
+
+/*HEADER STYLE*/
+#header {
+  background-color: #223877;
+  padding: 0 5%;
+  border-color: #A490B4;
+  border-style: ridge;
+  border-width: 0 0 4px 0;
+}
+#header ul {
+  list-style-type: none;
+  padding: 0.5em 0;
+  margin: 0;
+}
+#header li {
+  font-size: 1.15em;
+  display: inline-block;
+  margin-right: 1.5em;
+  margin-bottom: 0.2em;
+  margin-top: 0.2em;
+}
+#header li a {
+  color: #FFE095;
+  text-decoration: none;
+  background-color: inherit;
+}
+#header li a:hover {
+  text-decoration: underline;
+}
+
+/*POST LIST STYLE*/
+.post-list {
+  font-size: 1em;
+  padding: 0;
+  text-indent: 0em;
+  list-style-type: "";
+}
+#recentpostlistdiv ul {
+  font-size: 1.2em;
+  padding: 0;
+  list-style-type: "";
+}
+.moreposts {
+  font-size: 0.8em;
+  margin-top: 0.2em;
+}
+
+/*NEXT AND PREVIOUS LINKS STYLE*/
+#nextprev {
+  text-align: center;
+  margin-top: 1.4em;
+}
+
+/*DISQUS STYLE*/
+#disqus_thread {
+  margin-top: 1.6em;
+}
+
+/*FOOTER STYLE*/
+#footer {
+  font-size: 0.8em;
+  padding: 0 5% 10px 5%;
+}
