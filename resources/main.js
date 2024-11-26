@@ -51,25 +51,14 @@ const hubLinks = [
 
 const posts = [
 {
-<<<<<<< HEAD
-	"title": `I don't think most video essays are actually essays`,
-	"filename": `2024-11-26-IDontThinkMostVideoEssaysAreActuallyEssays`,
-	"tags": [`ponderings`],
-},
-{
-	"title": `site update! (11/7/2024)`,
-	"filename": `2024-11-07-SiteUpdate`,
-	"tags": [`housekeeping`],
-=======
 		"title": `Strange Gaming Diaries: In Stars and Time, by insertdisc5`,
 		"filename": `2024-11-12-StrangeGaming_InStarsAndTime`,
 		"tags": [`sgd`, `rpg maker`, `insertdisc5`],
 },
-	{
+{
 		"title": `site update! (11/7/2024)`,
 		"filename": `2024-11-07-SiteUpdate`,
 		"tags": [`housekeeping`],
->>>>>>> f0a2570ebb624416f7c4c2f3f0e8e706d8c2ba7b
 },
 {
 	"title": `Strange Gaming Diaries: DARK FOREST VIRTUAL CHATROOM by Heather Flowers & Remember Places? by Bryce Bucher`,
