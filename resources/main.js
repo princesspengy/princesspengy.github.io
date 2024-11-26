@@ -50,12 +50,17 @@ const hubLinks = [
 =============== */
 
 const posts = [
-	{
-		"title": `site update! (11/7/2024)`,
-		"filename": `2024-11-07-SiteUpdate`,
-		"tags": [`housekeeping`],
-	},
-	{
+{
+	"title": `I don't think most video essays are actually essays`,
+	"filename": `2024-11-26-IDontThinkMostVideoEssaysAreActuallyEssays`,
+	"tags": [`ponderings`],
+},
+{
+	"title": `site update! (11/7/2024)`,
+	"filename": `2024-11-07-SiteUpdate`,
+	"tags": [`housekeeping`],
+},
+{
 	"title": `Strange Gaming Diaries: DARK FOREST VIRTUAL CHATROOM by Heather Flowers & Remember Places? by Bryce Bucher`,
 	"filename": `2024-11-03-StrangeGamingDarkForestVirtualChatroom&RememberPlaces`,
 	"tags": [`sgd`],
@@ -108,7 +113,7 @@ const posts = [
 {
 	"title": `some thoughts on criticizing good games`,
 	"filename": `2024-05-24-OnCriticizingGoodGames`,
-	"tags": [`rambles`],
+	"tags": [`ponderings`],
 },
 {
 	"title": `Strange Gaming Diaries: Dreaming Sarah (& Wishing Sarah), by Asteristic Game Studio`,
