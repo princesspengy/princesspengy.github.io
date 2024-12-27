@@ -51,6 +51,11 @@ const hubLinks = [
 
 const posts = [
 {
+	"title": `Strange Gaming Diaries: Slay the Princess, by Black Tabby Games`,
+	"filename": `2024-12-27-StrangeGaming_SlayThePrincess`,
+	"tags": [`sgd`, `visual novel`, `horror`],
+},
+	{
 	"title": `I don't think most video essays are actually essays`,
 	"filename": `2024-11-26-IDontThinkMostVideoEssaysAreActuallyEssays`,
 	"tags": [`ponderings`],
