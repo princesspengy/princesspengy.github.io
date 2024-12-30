@@ -51,6 +51,11 @@ const hubLinks = [
 
 const posts = [
 {
+	"title": `review: CURSE/KISS/CUTE Episode 0, by Valerie Halla`,
+	"filename": `2024-12-30-CurseKissCuteEp0`,
+	"tags": [`review`],
+},
+{
 	"title": `Strange Gaming Diaries: Slay the Princess, by Black Tabby Games`,
 	"filename": `2024-12-27-StrangeGaming_SlayThePrincess`,
 	"tags": [`sgd`, `visual novel`, `horror`],
