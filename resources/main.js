@@ -51,6 +51,11 @@ const hubLinks = [
 
 const posts = [
 {
+	"title": `Strange Gaming Diaries: I Contemplated the Sun of Limbo, by Titouan Millet`,
+	"filename": `2025-01-19-StrangeGaming_IContemplatedTheSunOfLimbo`,
+	"tags": [`sgd`],
+},
+{
 	"title": `Strange Gaming Diaries: Furi, by The Game Bakers`,
 	"filename": `2025-01-15-StrangeGaming_Furi`,
 	"tags": [`sgd`],
