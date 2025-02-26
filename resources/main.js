@@ -51,6 +51,11 @@ const hubLinks = [
 
 const posts = [
 {
+	"title": `Strange Gaming Diaries: Luna's Wandering Stars, by Serenity Forge`,
+	"filename": `2025-02-26-StrangeGaming_LunasWanderingStars.html`,
+	"tags": [`sgd`],
+},
+{
 	"title": `Strange Gaming Diaries: I Contemplated the Sun of Limbo, by Titouan Millet`,
 	"filename": `2025-01-19-StrangeGaming_IContemplatedTheSunOfLimbo`,
 	"tags": [`sgd`],
