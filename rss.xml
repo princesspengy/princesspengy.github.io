@@ -4,13 +4,35 @@
     <title>
       <![CDATA[princess pengy!]]>
     </title>
-    <atom:link href="https://princesspengy.github.io//rss.xml" rel="self" type="application/rss+xml"/>
+    <atom:link href="https://princesspengy.space//rss.xml" rel="self" type="application/rss+xml"/>
     <link>
-      <![CDATA[https://princesspengy.github.io/]]>
+      <![CDATA[https://princesspengy.space/]]>
     </link>
     <description>
       <![CDATA[scrawlings of an earthbound spacething about all the things that make her feel]]>
     </description>
+    <item>
+      <title>
+        <![CDATA[Strange Gaming Diaries: Luna's Wandering Stars, by Serenity Forge]]>
+      </title>
+      <pubDate>
+        <![CDATA[Wed, 26 Feb 2025 19:40:00 GMT]]>
+      </pubDate>
+      <description>
+        <![CDATA[<p><img src="https://princesspengy.space/images/lunaswanderingstars1.jpg"></p>
+<p>did you know that hit indie publisher serenity forge has actually kept up a steady output of in-house games for a little over a decade? I didn't! this one caught my eye because it's space-themed and I'm the most predictable bitch alive</p>
+<p><a href="https://princesspengy.space/posts/2025-02-26-StrangeGaming_LunasWanderingStars.html">read the full diary entry here!</a></p>]]>
+      </description>
+      <author>
+        <![CDATA[pengy]]>
+      </author>
+      <link>
+        <![CDATA[https://princesspengy.space/posts/2025-02-26-StrangeGaming_LunasWanderingStars.html]]>
+      </link>
+      <guid>
+        <![CDATA[https://princesspengy.space/posts/2025-02-26-StrangeGaming_LunasWanderingStars.html]]>
+      </guid>
+    </item>
     <item>
       <title>
         <![CDATA[Strange Gaming Diaries: I Contemplated the Sun of Limbo, by Titouan Millet]]>
