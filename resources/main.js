@@ -51,6 +51,11 @@ const hubLinks = [
 
 const posts = [
 {
+	"title": `I played ANOTHEREAL at vancouver game garden and I can't stop thinking about it`,
+	"filename": `2025-09-28-ANOTHEREAL_GameGardenThoughts`,
+	"tags": [`review`],
+},
+{
 	"title": `Strange Gaming Diaries: Bug Fables: The Everlasting Sapling, by Moonsprout Games`,
 	"filename": `2025-08-13-StrangeGaming_BugFables`,
 	"tags": [`sgd`],
