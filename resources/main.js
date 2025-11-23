@@ -51,15 +51,14 @@ const hubLinks = [
 
 const posts = [
 {
-<<<<<<< HEAD
 	"title": `Feebz: A Virtual Pet Game by Bee Braun and...Me!`,
 	"filename": `2025-11-23-Feebz`,
 	"tags": [`devlog`],
-=======
+},
+{
 	"title": `I played ANOTHEREAL at vancouver game garden and I can't stop thinking about it`,
 	"filename": `2025-09-28-ANOTHEREAL_GameGardenThoughts`,
 	"tags": [`review`],
->>>>>>> 03f1bdc5af786d049f55ae7eac715688eadbaccc
 },
 {
 	"title": `Strange Gaming Diaries: Bug Fables: The Everlasting Sapling, by Moonsprout Games`,
