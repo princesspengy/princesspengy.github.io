@@ -51,6 +51,11 @@ const hubLinks = [
 
 const posts = [
 {
+	"title": `Feebz: A Virtual Pet Game by Bee Braun and...Me!`,
+	"filename": `2025-11-23-Feebz`,
+	"tags": [`devlog`],
+},
+{
 	"title": `Strange Gaming Diaries: Bug Fables: The Everlasting Sapling, by Moonsprout Games`,
 	"filename": `2025-08-13-StrangeGaming_BugFables`,
 	"tags": [`sgd`],
