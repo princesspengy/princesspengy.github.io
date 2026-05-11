@@ -50,156 +50,161 @@ const hubLinks = [
 =============== */
 
 const posts = [
-{
-	"title": `Feebz: A Virtual Pet Game by Bee Braun and...Me!`,
-	"filename": `2025-11-23-Feebz`,
-	"tags": [`devlog`],
-},
-{
-	"title": `I played ANOTHEREAL at vancouver game garden and I can't stop thinking about it`,
-	"filename": `2025-09-28-ANOTHEREAL_GameGardenThoughts`,
-	"tags": [`review`],
-},
-{
-	"title": `Strange Gaming Diaries: Bug Fables: The Everlasting Sapling, by Moonsprout Games`,
-	"filename": `2025-08-13-StrangeGaming_BugFables`,
-	"tags": [`sgd`],
-},
-{
-	"title": `Strange Gaming Diaries: Luna's Wandering Stars, by Serenity Forge`,
-	"filename": `2025-02-26-StrangeGaming_LunasWanderingStars`,
-	"tags": [`sgd`],
-},
-{
-	"title": `Strange Gaming Diaries: I Contemplated the Sun of Limbo, by Titouan Millet`,
-	"filename": `2025-01-19-StrangeGaming_IContemplatedTheSunOfLimbo`,
-	"tags": [`sgd`],
-},
-{
-	"title": `Strange Gaming Diaries: Furi, by The Game Bakers`,
-	"filename": `2025-01-15-StrangeGaming_Furi`,
-	"tags": [`sgd`],
-},
-{
-	"title": `review: CURSE/KISS/CUTE Episode 0, by Valerie Halla`,
-	"filename": `2024-12-30-CurseKissCuteEp0`,
-	"tags": [`review`],
-},
-{
-	"title": `Strange Gaming Diaries: Slay the Princess, by Black Tabby Games`,
-	"filename": `2024-12-27-StrangeGaming_SlayThePrincess`,
-	"tags": [`sgd`, `visual novel`, `horror`],
-},
 	{
-	"title": `I don't think most video essays are actually essays`,
-	"filename": `2024-11-26-IDontThinkMostVideoEssaysAreActuallyEssays`,
-	"tags": [`ponderings`],
-},
-{
-	"title": `Strange Gaming Diaries: In Stars and Time, by insertdisc5`,
-	"filename": `2024-11-12-StrangeGaming_InStarsAndTime`,
-	"tags": [`sgd`, `rpg maker`, `insertdisc5`],
-},
-{
-	"title": `site update! (11/7/2024)`,
-	"filename": `2024-11-07-SiteUpdate`,
-	"tags": [`housekeeping`],
-},
-{
-	"title": `Strange Gaming Diaries: DARK FOREST VIRTUAL CHATROOM by Heather Flowers & Remember Places? by Bryce Bucher`,
-	"filename": `2024-11-03-StrangeGaming_DarkForestVirtualChatroom&RememberPlaces`,
-	"tags": [`sgd`],
-},
-{
-	"title": `Strange Gaming Diaries: Outer Wilds, by Mobius Digital`,
-	"filename": `2024-10-30-StrangeGaming_OuterWilds`,
-	"tags": [`sgd`],
-},
-{
-	"title": `Strange Gaming Diaries: Frogsong, by Frogteam Games`,
-	"filename": `2024-10-11-StrangeGaming_Frogsong`,
-	"tags": [`sgd`, `made by a friend`],
-},
-{
-	"title": `Strange Gaming Diaries: Anodyne 2: Return to Dust, by Analgesic Productions`,
-	"filename": `2024-09-18-StrangeGaming_Anodyne2`,
-	"tags": [`sgd`, `metanarratives`],
-},
-{
-	"title": `Strange Gaming Diaries: A NIGHTMARE'S TRIP, by SKY HOUR WORKS`,
-	"filename": `2024-09-01-StrangeGaming_ANightmaresTrip`,
-	"tags": [`sgd`, `visual novel`],
-},
-{
-	"title": `Strange Gaming Diaries: Far from Noise, by George Batchelor`,
-	"filename": `2024-08-24-StrangeGaming_FarFromNoise`,
-	"tags": [`sgd`, `visual novel`],
-},
-{
-	"title": `Strange Gaming Diaries: OneShot, by Future Cat`,
-	"filename": `2024-07-02-StrangeGaming_OneShot`,
-	"tags": [`sgd`, `rpg maker`, `metanarratives`],
-},
-{
-	"title": `Strange Gaming Diaries: The Magic Circle, by Question`,
-	"filename": `2024-06-15-StrangeGaming_TheMagicCircle`,
-	"tags": [`sgd`, `metanarratives`],
-},
-{
-	"title": `Strange Gaming Diaries: Bastion, by Supergiant Games`,
-	"filename": `2024-06-04-StrangeGaming_Bastion`,
-	"tags": [`sgd`],
-},
-{
-	"title": `Strange Gaming Diaries: Smile for Me, by LimboLane`,
-	"filename": `2024-05-27-StrangeGaming_SmileForMe`,
-	"tags": [`sgd`],
-},
-{
-	"title": `some thoughts on criticizing good games`,
-	"filename": `2024-05-24-OnCriticizingGoodGames`,
-	"tags": [`ponderings`],
-},
-{
-	"title": `Strange Gaming Diaries: Dreaming Sarah (& Wishing Sarah), by Asteristic Game Studio`,
-	"filename": `2024-05-22-StrangeGaming_DreamingSarah`,
-	"tags": [`sgd`],
-},
-{
-	"title": `Strange Gaming Diaries: 2000:1: A Space Felony, by National Insecurities`,
-	"filename": `2024-05-16-StrangeGaming_2000to1`,
-	"tags": [`sgd`, `visual novel`],
-},
-{
-	"title": `Strange Gaming Diaries: OMORI, by OMOCAT`,
-	"filename": `2024-05-09-StrangeGaming_OMORI`,
-	"tags": [`sgd`, `rpg maker`, `horror`],
-},
-{
-	"title": `Strange Gaming Diaries: Boa Retina, by Jennifer Raye`,
-	"filename": `2024-05-07-StrangeGaming_BoaRetina`,
-	"tags": [`sgd`],
-},
-{
-	"title": `Heartbeats, Stolen in the Night`,
-	"filename": `2024-05-04-HeartbeatsStolenInTheNight`,
-	"tags": [`short story`],
-},
-{
-	"title": `Strange Gaming Diaries: Serre, by insertdisc5`,
-	"filename": `2024-04-25-StrangeGaming_Serre`,
-	"tags": [`sgd`, `visual novel`, `insertdisc5`],
-},
-{
-	"title": `Strange Gaming Diaries: THE ENIGMA MACHINE, by ENIGMA STUDIO`,
-	"filename": `2023-07-06-StrangeGaming_TheEnigmaMachine`,
-	"tags": [`sgd`, `horror`],
-},
-{
-	"title": `Strange Gaming Diaries: The Hex, by Daniel Mullins Games`,
-	"filename": `2023-05-06-StrangeGaming_TheHex`,
-	"tags": [`sgd`, `metanarratives`],
-},
+		"title": `briefly fixating on a baffling development artifact in yume nikki`,
+		"filename": `2026-05-11-YumeNikki_Dev_Nonsense`,
+		"tags": [`ponderings`],
+	},
+	{
+		"title": `Feebz: A Virtual Pet Game by Bee Braun and...Me!`,
+		"filename": `2025-11-23-Feebz`,
+		"tags": [`devlog`],
+	},
+	{
+		"title": `I played ANOTHEREAL at vancouver game garden and I can't stop thinking about it`,
+		"filename": `2025-09-28-ANOTHEREAL_GameGardenThoughts`,
+		"tags": [`review`],
+	},
+	{
+		"title": `Strange Gaming Diaries: Bug Fables: The Everlasting Sapling, by Moonsprout Games`,
+		"filename": `2025-08-13-StrangeGaming_BugFables`,
+		"tags": [`sgd`],
+	},
+	{
+		"title": `Strange Gaming Diaries: Luna's Wandering Stars, by Serenity Forge`,
+		"filename": `2025-02-26-StrangeGaming_LunasWanderingStars`,
+		"tags": [`sgd`],
+	},
+	{
+		"title": `Strange Gaming Diaries: I Contemplated the Sun of Limbo, by Titouan Millet`,
+		"filename": `2025-01-19-StrangeGaming_IContemplatedTheSunOfLimbo`,
+		"tags": [`sgd`],
+	},
+	{
+		"title": `Strange Gaming Diaries: Furi, by The Game Bakers`,
+		"filename": `2025-01-15-StrangeGaming_Furi`,
+		"tags": [`sgd`],
+	},
+	{
+		"title": `review: CURSE/KISS/CUTE Episode 0, by Valerie Halla`,
+		"filename": `2024-12-30-CurseKissCuteEp0`,
+		"tags": [`review`],
+	},
+	{
+		"title": `Strange Gaming Diaries: Slay the Princess, by Black Tabby Games`,
+		"filename": `2024-12-27-StrangeGaming_SlayThePrincess`,
+		"tags": [`sgd`, `visual novel`, `horror`],
+	},
+		{
+		"title": `I don't think most video essays are actually essays`,
+		"filename": `2024-11-26-IDontThinkMostVideoEssaysAreActuallyEssays`,
+		"tags": [`ponderings`],
+	},
+	{
+		"title": `Strange Gaming Diaries: In Stars and Time, by insertdisc5`,
+		"filename": `2024-11-12-StrangeGaming_InStarsAndTime`,
+		"tags": [`sgd`, `rpg maker`, `insertdisc5`],
+	},
+	{
+		"title": `site update! (11/7/2024)`,
+		"filename": `2024-11-07-SiteUpdate`,
+		"tags": [`housekeeping`],
+	},
+	{
+		"title": `Strange Gaming Diaries: DARK FOREST VIRTUAL CHATROOM by Heather Flowers & Remember Places? by Bryce Bucher`,
+		"filename": `2024-11-03-StrangeGaming_DarkForestVirtualChatroom&RememberPlaces`,
+		"tags": [`sgd`],
+	},
+	{
+		"title": `Strange Gaming Diaries: Outer Wilds, by Mobius Digital`,
+		"filename": `2024-10-30-StrangeGaming_OuterWilds`,
+		"tags": [`sgd`],
+	},
+	{
+		"title": `Strange Gaming Diaries: Frogsong, by Frogteam Games`,
+		"filename": `2024-10-11-StrangeGaming_Frogsong`,
+		"tags": [`sgd`, `made by a friend`],
+	},
+	{
+		"title": `Strange Gaming Diaries: Anodyne 2: Return to Dust, by Analgesic Productions`,
+		"filename": `2024-09-18-StrangeGaming_Anodyne2`,
+		"tags": [`sgd`, `metanarratives`],
+	},
+	{
+		"title": `Strange Gaming Diaries: A NIGHTMARE'S TRIP, by SKY HOUR WORKS`,
+		"filename": `2024-09-01-StrangeGaming_ANightmaresTrip`,
+		"tags": [`sgd`, `visual novel`],
+	},
+	{
+		"title": `Strange Gaming Diaries: Far from Noise, by George Batchelor`,
+		"filename": `2024-08-24-StrangeGaming_FarFromNoise`,
+		"tags": [`sgd`, `visual novel`],
+	},
+	{
+		"title": `Strange Gaming Diaries: OneShot, by Future Cat`,
+		"filename": `2024-07-02-StrangeGaming_OneShot`,
+		"tags": [`sgd`, `rpg maker`, `metanarratives`],
+	},
+	{
+		"title": `Strange Gaming Diaries: The Magic Circle, by Question`,
+		"filename": `2024-06-15-StrangeGaming_TheMagicCircle`,
+		"tags": [`sgd`, `metanarratives`],
+	},
+	{
+		"title": `Strange Gaming Diaries: Bastion, by Supergiant Games`,
+		"filename": `2024-06-04-StrangeGaming_Bastion`,
+		"tags": [`sgd`],
+	},
+	{
+		"title": `Strange Gaming Diaries: Smile for Me, by LimboLane`,
+		"filename": `2024-05-27-StrangeGaming_SmileForMe`,
+		"tags": [`sgd`],
+	},
+	{
+		"title": `some thoughts on criticizing good games`,
+		"filename": `2024-05-24-OnCriticizingGoodGames`,
+		"tags": [`ponderings`],
+	},
+	{
+		"title": `Strange Gaming Diaries: Dreaming Sarah (& Wishing Sarah), by Asteristic Game Studio`,
+		"filename": `2024-05-22-StrangeGaming_DreamingSarah`,
+		"tags": [`sgd`],
+	},
+	{
+		"title": `Strange Gaming Diaries: 2000:1: A Space Felony, by National Insecurities`,
+		"filename": `2024-05-16-StrangeGaming_2000to1`,
+		"tags": [`sgd`, `visual novel`],
+	},
+	{
+		"title": `Strange Gaming Diaries: OMORI, by OMOCAT`,
+		"filename": `2024-05-09-StrangeGaming_OMORI`,
+		"tags": [`sgd`, `rpg maker`, `horror`],
+	},
+	{
+		"title": `Strange Gaming Diaries: Boa Retina, by Jennifer Raye`,
+		"filename": `2024-05-07-StrangeGaming_BoaRetina`,
+		"tags": [`sgd`],
+	},
+	{
+		"title": `Heartbeats, Stolen in the Night`,
+		"filename": `2024-05-04-HeartbeatsStolenInTheNight`,
+		"tags": [`short story`],
+	},
+	{
+		"title": `Strange Gaming Diaries: Serre, by insertdisc5`,
+		"filename": `2024-04-25-StrangeGaming_Serre`,
+		"tags": [`sgd`, `visual novel`, `insertdisc5`],
+	},
+	{
+		"title": `Strange Gaming Diaries: THE ENIGMA MACHINE, by ENIGMA STUDIO`,
+		"filename": `2023-07-06-StrangeGaming_TheEnigmaMachine`,
+		"tags": [`sgd`, `horror`],
+	},
+	{
+		"title": `Strange Gaming Diaries: The Hex, by Daniel Mullins Games`,
+		"filename": `2023-05-06-StrangeGaming_TheHex`,
+		"tags": [`sgd`, `metanarratives`],
+	},
 
 ];
 

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+<head>
+	<meta charset="UTF-8">
+
+	<title>briefly fixating on a baffling development artifact in yume nikki</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&family=Crimson+Pro:ital,wght@0,200..900;1,200..900&family=Grandstander:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="../resources/main.css" rel="stylesheet" type="text/css" media="all">
+
+	<link rel="icon" href="../images/favicon.png">
+</head>
+
+<body>
+	<div id="container">
+		<header id="header">Sorry, this site needs JavaScript to work.</header><!--#header end-->
+
+<article id="content">
+	<header>
+		<h1>briefly fixating on a baffling development artifact in yume nikki</h1>
+		<time id="post-date"></time>
+		<ul id="post-tags" class="flex-list"></ul>
+		<div title="416 words at 250 wpm">2 min read</div>
+	</header>
+			
+	<p>okay so I've been working with yume nikki's internal assets for a little personal project and god this game is so fucking silly on a technical level. I need to write about it.</p>
+
+	<p>so, I'm trying to recreate these two rooms using the game's assets and found some very silly design decisions.</p>
+
+	<p><img src="/images/yumenikki_mall1.png"> <img src="/images/yumenikki_mall2.png"></p>
+	
+	<p>I dig into the folder with every single asset from yume nikki in it that I just have on my computer already and I find the background images used for these rooms:</p>
+
+	<p><img src="/images/yumenikki_mall3.png"> <img src="/images/yumenikki_mall4.png"></p>
+	
+	<p>(notice how the colors are slightly different. this is one of the reasons why I wanted to recreate these rooms—I can't find any clean screenshot of these rooms that's actually accurate to the way these appear in the game.)</p>
+		
+	<p>I think to myself, okay, the paintings aren't there, so I'll need to track those down in the tileset for this area—</p>
+
+	<p>but wait, why is the couch only there in one background and not the other? where's the couch? confused, I find the tileset for this area.</p>
+
+	<p><img src="/images/yumenikki_mall5.png"></p>
+	
+	<p>the paintings are here—and so is the couch!! and I realize the reason for this. go back up to those first screenshots and look at the two rooms again. it turns out, in order to render the couch in front of the painting in the second room, you can't render the couch as part of the background here because you're rendering the painting as tiles!!</p>
+	
+	<p>but then I realized—there's no reason that I can tell for the paintings to be rendered as tiles?? you never interact with them and nothing ever gets rendered behind them??</p>
+
+	<p>this realization was like catching lightning. seeing that such a simple process as layering an image on top of an image on top of an image was being done in such a strange way, and quite possibly a completely unnecessary way, was such a raw and charmingly human experience. I find myself drawn to it as a microcosm of my love of the game in general, hence me writing about it.</p>
+	
+	<p>the most captivating aspect of yume nikki for me has always been that it's so, so demonstrably what you get when you let a single developer make a game that they get to put whatever the hell they want into with no oversight from anyone. this is the same creative protoplasm from which all of the weird online visual novels made by fucked up perverts in our current time also arises. this is abiogenesis in motion.</p>
+	
+	<br>
+	<hr>
+	<h3>Comments</h3>
+	<div style="font-size: 0.75em; font-style: italic;"><p>note: these comments are manually moderated, so they have to go through me before they become visible!</p></div>
+		<div id="cusdis_thread"
+		data-host="https://cusdis.com"
+		data-app-id="cf82a577-c4e8-4b0b-9467-e87b30f79000"
+		data-page-id="template"
+		data-page-url="https://princesspengy.github.io/posts/template"
+		data-page-title="template post"
+		></div>
+		<script async defer src="\resources\cusdis.es.js"></script>
+</article><!--#content end-->
+
+		<footer id="footer">
+			<hr>
+			<nav id="post-nav"></nav><!--#post-nav end-->
+		</footer><!--#footer end-->
+	</div> <!--#container end-->
+
+
+
+	<script src="../resources/main.js"></script>
+</body>
+</html>
