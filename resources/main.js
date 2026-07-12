@@ -33,12 +33,12 @@ const messagesOn = false; // whether or not to show a random message in the head
 // links listed in header (nav)
 const navLinks = [
 {	"name": `home`,	"filename": `index.html`,	},
-{	"name": `archive`,		"filename": `archive.html`,	},
+{	"name": `archive`,		"filename": `archive.html`,	}, 
+{	"name": `games`,			"filename": `games.html`,		},	
 {	"name": `tags`,			"filename": `tags.html`,		},
 {	"name": `rss`,		"filename": `rss.xml`,	},
 {	"name": `about`,		"filename": `about.html`,	},
 {	"name": `friends`,			"filename": `friends.html`,		},
-{	"name": `recs`,			"filename": `recs.html`,		},
 ];
 
 const hubLinks = [
