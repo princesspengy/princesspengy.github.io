@@ -51,6 +51,11 @@ const hubLinks = [
 
 const posts = [
 	{
+		"title": `Strange Gaming Diaries: C•ko•fn•ta•C, by Madocactus`,
+		"filename": `2026-07-15-StrangeGaming_Sycophantasy`,
+		"tags": [`sgd`, `visual novel`, `horror`],
+	},
+	{
 		"title": `briefly fixating on a baffling development artifact in yume nikki`,
 		"filename": `2026-05-11-YumeNikki_Dev_Nonsense`,
 		"tags": [`ponderings`],
