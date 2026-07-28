@@ -54,7 +54,7 @@ const posts = [
 		"title": `Strange Gaming Diaries: Kaschei, by Middle Sea Software`,
 		"filename": `2026-07-27-StrangeGaming_Kaschei`,
 		"tags": [`sgd`, `visual novel`],
-	},	
+	},
 	{
 		"title": `Strange Gaming Diaries: C•ko•fn•ta•C, by Madocactus`,
 		"filename": `2026-07-15-StrangeGaming_Sycophantasy`,
@@ -103,7 +103,7 @@ const posts = [
 	{
 		"title": `Strange Gaming Diaries: Slay the Princess, by Black Tabby Games`,
 		"filename": `2024-12-27-StrangeGaming_SlayThePrincess`,
-		"tags": [`sgd`, `visual novel`, `horror`],
+		"tags": [`sgd`, `visual novel`],
 	},
 		{
 		"title": `I don't think most video essays are actually essays`,
@@ -138,7 +138,7 @@ const posts = [
 	{
 		"title": `Strange Gaming Diaries: Anodyne 2: Return to Dust, by Analgesic Productions`,
 		"filename": `2024-09-18-StrangeGaming_Anodyne2`,
-		"tags": [`sgd`, `metanarratives`],
+		"tags": [`sgd`],
 	},
 	{
 		"title": `Strange Gaming Diaries: A NIGHTMARE'S TRIP, by SKY HOUR WORKS`,
@@ -153,12 +153,12 @@ const posts = [
 	{
 		"title": `Strange Gaming Diaries: OneShot, by Future Cat`,
 		"filename": `2024-07-02-StrangeGaming_OneShot`,
-		"tags": [`sgd`, `rpg maker`, `metanarratives`],
+		"tags": [`sgd`, `rpg maker`],
 	},
 	{
 		"title": `Strange Gaming Diaries: The Magic Circle, by Question`,
 		"filename": `2024-06-15-StrangeGaming_TheMagicCircle`,
-		"tags": [`sgd`, `metanarratives`],
+		"tags": [`sgd`],
 	},
 	{
 		"title": `Strange Gaming Diaries: Bastion, by Supergiant Games`,
@@ -203,7 +203,7 @@ const posts = [
 	{
 		"title": `Strange Gaming Diaries: Serre, by insertdisc5`,
 		"filename": `2024-04-25-StrangeGaming_Serre`,
-		"tags": [`sgd`, `visual novel`, `insertdisc5`],
+		"tags": [`sgd`],
 	},
 	{
 		"title": `Strange Gaming Diaries: THE ENIGMA MACHINE, by ENIGMA STUDIO`,
@@ -213,7 +213,7 @@ const posts = [
 	{
 		"title": `Strange Gaming Diaries: The Hex, by Daniel Mullins Games`,
 		"filename": `2023-05-06-StrangeGaming_TheHex`,
-		"tags": [`sgd`, `metanarratives`],
+		"tags": [`sgd`],
 	},
 
 ];
