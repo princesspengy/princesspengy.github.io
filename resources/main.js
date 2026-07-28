@@ -51,6 +51,11 @@ const hubLinks = [
 
 const posts = [
 	{
+		"title": `Strange Gaming Diaries: Kaschei, by Middle Sea Software`,
+		"filename": `2026-07-27-StrangeGaming_Kaschei`,
+		"tags": [`sgd`, `visual novel`],
+	},	
+	{
 		"title": `Strange Gaming Diaries: C•ko•fn•ta•C, by Madocactus`,
 		"filename": `2026-07-15-StrangeGaming_Sycophantasy`,
 		"tags": [`sgd`, `visual novel`, `horror`],
@@ -226,7 +231,7 @@ const messages = [
 	`this message includes <a href="https://zombo.com/" rel="external">a link</a>`,
 ];
 
-const footerMessage = `<p>background art by <a href="https://odthecryptid.carrd.co/">O.D. the Cryptid!</a><p>`;
+const footerMessage = `<p>background art by <a href="https://loreevermore.carrd.co/">Lore Evermore!</a><p>`;
 document.querySelector(`footer`).innerHTML += footerMessage;
 
 /* ======================
