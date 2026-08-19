@@ -51,6 +51,11 @@ const hubLinks = [
 
 const posts = [
 	{
+		"title": `Dev Diary: YOU MUST AGREE TO CONTINUE, In Retrospect`,
+		"filename": `2026-08-19-DevDiary_YouMustAgree`,
+		"tags": [`devlog`],
+	},
+	{
 		"title": `Strange Gaming Diaries: Kaschei, by Middle Sea Software`,
 		"filename": `2026-07-27-StrangeGaming_Kaschei`,
 		"tags": [`sgd`, `visual novel`],
@@ -66,7 +71,7 @@ const posts = [
 		"tags": [`ponderings`],
 	},
 	{
-		"title": `Feebz: A Virtual Pet Game by Bee Braun and...Me!`,
+		"title": `Dev Diary: Feebz, In Retrospect`,
 		"filename": `2025-11-23-Feebz`,
 		"tags": [`devlog`],
 	},
@@ -231,7 +236,7 @@ const messages = [
 	`this message includes <a href="https://zombo.com/" rel="external">a link</a>`,
 ];
 
-const footerMessage = `<p>background art by <a href="https://loreevermore.carrd.co/">Lore Evermore!</a><p>`;
+const footerMessage = `<p><p>`;
 document.querySelector(`footer`).innerHTML += footerMessage;
 
 /* ======================

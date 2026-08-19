@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+<head>
+	<meta charset="UTF-8">
+
+	<title>Dev Diary: YOU MUST AGREE TO CONTINUE, In Retrospect</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&family=Crimson+Pro:ital,wght@0,200..900;1,200..900&family=Grandstander:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="../resources/main.css" rel="stylesheet" type="text/css" media="all">
+
+	<link rel="icon" href="../images/favicon.png">
+</head>
+
+<body>
+	<div id="container">
+		<header id="header">Sorry, this site needs JavaScript to work.</header><!--#header end-->
+
+<article id="content">
+	<header>
+		<h1>Dev Diary: YOU MUST AGREE TO CONTINUE, In Retrospect</h1>
+		<time id="post-date"></time>
+		<ul id="post-tags" class="flex-list"></ul>
+		<div title="1653 words at 250 wpm">7 min read</div>
+	</header>
+
+	<img src="/images/youmustagree1.png">
+	
+	<p>it's been a month and a bit since I made this game, which I think is enough time left in the air for me to reveal some things about how making this game happened. it was my very first solo project, very first visual novel, and also a game with which I decided to take some particular decisions in development that I figure might be interesting to reveal. as much as I want to maintain an air of inscrutable mystery around my work, this is also unmistakably a product of a very personal process—I'm not doing anyone any favors acting like I don't have anything to say about it, least of all myself!</p>
+	
+	<p>if you haven't played it yet or didn't know I'd made it in the first place, and if you happen to have like fifteen minutes to spare, you can play/download YOU MUST AGREE TO CONTINUE on its itch.io page <a href="https://princesspengy.itch.io/you-must-agree-to-continue">here!</a></p>
+	
+	<h2>initial momentum</h2>
+	<p>I've wanted to make visual novels for a while—they'd always seemed like the perfect way of joining my skill for prose writing with my love for cinematographic flair demonstrated in my video work for youtube and the like.</p>
+	
+	<p>there was always a big obstacle to that, though: I don't know how to draw. it's not a skill I ever developed, and so making visual novels was ruled out as a possibility for me.</p>
+	
+	<p>but then, I was talking to crystal deforest of air gong and playing her then recently released game, <a href="https://air-gong.itch.io/daisy-chain">daisy chain</a>. made with decker, it reminded me of some of porpentine's twine work like <a href="https://xrafstar.monster/games/twine/tails/">the true legend of tails prower</a> and <a href="https://xrafstar.monster/games/twine/parasite/">parasite</a>, but with more traditional prose like I was familiar with writing and a greater sense of specificity to its art style that felt more like what I wanted to make, with its grainy colorless collages and varying styles of presenting its text.</p>
+	
+	<p>once the second toxic yuri vn jam came along some time after, I knew this was my moment. I'd been following the aftershocks of the first jam after having picked up on it just slightly too late to have joined, and have a strong enough taste for the subject matter that I felt confident in making something good. the only question, then, was how to make it.</p>
+	
+	<p>there were a number of people who I knew I could have collaborated with, and even people who I could work with to give my game the art I couldn't. but I decided that this was something I wanted to make on my own, to familiarize myself with my own creative process and reconnect with my own art. after a long time spent feeling very distant from myself as an artist, working on this project did a lot to bridge that gap.</p>
+	
+	<h2>why godot?</h2>
+	<p>of course, everyone's first piece of advice is to use ren'py if you want to make a visual novel. but my impression of ren'py was that it was a bit too inflexible for the style of presentation I had in mind. I wanted to be able to define everything about a block of text, from the style of text advancement to the position of the dialogue box to the persistence of previous lines while new ones were being drawn, all on a line by line basis. if there's a way to do all of that in ren'py, my research didn't find anything about it.</p>
+	
+	<p>plus, if I wanted to do anything unusual for my game—and I knew I did, since I wanted to ensure the prose could stand on its own—ren'py felt all the more infeasible for being built on python, a language I had zero experience in. I could learn it, but I was already doing everything else for the first time, so learning a new language felt exhaustingly intimidating.</p>
+	
+	<p>godot, meanwhile, was something I had direct experience with thanks to my time working on <a href="https://brodnork.itch.io/feebz">feebz</a> with bee braun, and a lot of indirect experience with from having gotten into c# for a different project. plus, bee could act as a direct line of support for anything I might encounter while working in godot.</p>
+	
+	<p>I sacrificed a lot by making this decision. the final game didn't end up having any convenient functions like history or saving, no user settings, and no other controls besides clicking to advance the text and a few buttons for volume adjustment.</p>
+	
+	<p>the lack of those things frustrates me, and it gives me a little bit of embarrassment to imagine a reader being frustrated by that same lack, but I'm ultimately happy with having made something I had full control over. if I had an idea for a weird way to split dialogue, I had a system that I could use to do it without any need to work around or modify a system I didn't make.</p>
+	
+	<p>plus, now that I've made all of this, it's here for me to iterate on. I have more ideas for visual novels after this, and every one of those will represent a chance to refine and add more features to this engine I'm making. it's encouraging to have something long-term like that to build towards.</p>
+	
+	<h2>reception</h2>
+	<p>I was surprised by the number of comments on the itch page talking about the game in specific terms, discussing its narrative themes and visual style and other such elements. I'm used to not receiving very insightful feedback on my written work, so hearing so much was a wonderful change of pace!</p>
+	
+	<p>not to mention, the number of people that have commented at all has been remarkable—if we assume that each of the ~300 browser plays and ~80 downloads as of time of writing are each one entirely distinct player, that's still around 5% of everybody who's ever played my game deciding to take the time to leave a comment on it, and ~7% who decided to leave a rating. those are phenomenal ratios, and make me confident that this game is reaching the people it really ought to!</p>
+	
+	<p>speaking of people the game reached, the itch analytics page was how I learned that my game had been shared by <a href="https://emptymovement.com/">empty movement</a>, a fan-forum for revolutionary girl utena. this is awesome and single-handedly made my day when I found out.</p>
+	
+	<p>the comments that made me happiest to hear, though, were the ones about my music selection and the ui style. the ui being complimented was of course gratifying and made me feel very justified for having gone to the trouble to make the game in the way I did, but the music was also something I took a lot of care to get right. one of the greatest things to me about visual novels is their ability to introduce sound as an element of storytelling, and I spent a lot of time trawling through my music library to find things that fit the scenes of my story. ideally I would've made the music myself, but that's something I still need to build back up after so much time spent away.</p>
+	
+	<p>and then, naturally, there were lots of compliments on the writing.</p>
+	
+	<p>the writing...</p>
+	
+	<h2>EVERY TIME I SAY THE WORD "MONEY" I WANT TO VOMIT</h2>
+	<p>this story was, in essence, a piece of vent art I scrawled out in about a week with nearly no revisions before building a technical vessel to hold it. I had a general outline and ideas of what I wanted to have happen in the story, and then I just wrote until I decided it was finished. I always tend to write in a very stream of consciousness way, but I felt that the subject matter would especially benefit from a hazy, fleeting narrative register. plus, the less time I spent agonizing over the script, the more time I could spend on the technicals.</p>
+	
+	<p>it all came together very naturally—both clarice and era are very autobiographical characters in many ways. in particular, the setting and initial setup is inspired by a lot of time spent in my early to mid 20s walking out at night to the pubs and diners by the dockside. I'd order some food, find the most comfortable seat I could, and tell myself that this was a treat that I was enjoying.</p>
+	
+	<p>occasionally, it actually was. I have fond memories of going to the local music venue and just taking in the atmosphere and seeing the way people moved around me. but, of course, my ability to participate in those spaces was contingent on me having money. so when that ran out, I just went to the waterfront instead and stared out at the water until I got hungry and had to go back home.</p>
+	
+	<p>sometimes I think about the fact that part of this routine involved walking across town in the dead of night with no company and no means of self defense. horrible things could have happened to me on nights like that. I'd daydream about getting attacked, and try to plan out what I'd do, how I'd respond.</p>
+	
+	<p>the thing about job interviews and renter applications and emotionally codependent romance and government provided health insurance and selling your art on the internet and flirting with a stranger from a discord server full of horny trans girls and fighting off someone who's attacking you on the street is that they've always felt like they communicate the same thing: oh god, oh god, please don't let me die, please don't let them kill me, I know how badly they want to kill me, I know that it's going to be slow and painful, I know you don't actually care about who I am as a person, I know you don't care about me, but I can't do anything but beg to you that I want to live, please let me live, please</p>
+	
+	<p>but the thing about begging is that once you're in a position where you feel the need to beg, everyone else has already decided what they're going to do to you.</p>
+	
+</article><!--#content end-->
+
+		<footer id="footer">
+			<hr>
+			<nav id="post-nav"></nav><!--#post-nav end-->
+		</footer><!--#footer end-->
+	</div> <!--#container end-->
+
+
+
+	<script src="../resources/main.js"></script>
+</body>
+</html>
