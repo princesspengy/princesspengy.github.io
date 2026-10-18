@@ -51,6 +51,11 @@ const hubLinks = [
 
 const posts = [
 	{
+		"title": `Strange Gaming Diaries: catgirl bloodhunt, by quiet4miu`,
+		"filename": `2026-10-18-StrangeGaming_CatgirlBloodhunt`,
+		"tags": [`sgd`],
+	},
+	{
 		"title": `Dev Diary: YOU MUST AGREE TO CONTINUE, In Retrospect`,
 		"filename": `2026-08-19-DevDiary_YouMustAgree`,
 		"tags": [`devlog`],
